@@ -1,0 +1,103 @@
+#titleBarDiv {
+
+	display: flex;
+	justify-content: center; 
+	background: #07305D;
+	align-items: center;
+	min-height: 25vh;
+	box-shadow: 0px 20px 20px rgb(50, 50, 50);
+	z-index: 10;
+	position: relative;
+
+}
+
+#hamburgerImg {
+
+	width: 9vh;
+	height: 9vh;
+
+
+}
+
+#logoImg {
+
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-right: 5vh;
+
+	height: 15vh;
+
+
+}
+
+#menuDiv {
+
+
+	position: absolute;
+	top: 25vh;
+	left: 0vw;
+
+
+	width: 100%;
+	height: 75vh;
+
+
+	background: #0B4488;
+
+	z-index: 11;
+
+	display: flex;
+	flex-direction: column;
+	align-items: fill-width;
+
+	justify-content: space-around;
+
+
+
+}
+
+.menuElement {
+
+	font-size: 3vh;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+
+	text-shadow: 0px 5px 0.4pc rgb(150, 150, 150);
+
+	margin-bottom: 1vh;
+
+}
+
+.menuElementDiv {
+
+	width: 100%;
+	flex-grow: 1;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-color: #FFFFFF;
+	position: relative;
+
+
+}
+
+.menuElementLiner {
+
+	border-bottom: solid;
+	border-top: solid;
+
+	width: 80%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-color: #FFFFFF;
+
+	border-width: 2px;
+
+
+}
+

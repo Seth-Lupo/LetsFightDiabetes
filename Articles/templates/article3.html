@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="static/css/titlebar.css">
+		<link rel="stylesheet" href="static/css/body.css">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+
+	</head>
+	
+	<body>
+
+		<div id="titleBarDiv"> 
+			
+			<image id="logoImg" src="static/img/logo.png">
+			<image id="hamburgerImg" src="static/img/hamburger.png">
+
+		</div>
+
+		<div id="menuDiv" style="display: none;">
+			
+			<div class="menuElementDiv" id="button1"><div class="menuElementLiner" style="border-top: none;"><h1 class="menuElement">Home</h1></div></div>
+			<div class="menuElementDiv" id="button2"><div class="menuElementLiner"><h1 class="menuElement">Diagnosing Diabetes</h1></div></div>
+			<div class="menuElementDiv" id="button3"><div class="menuElementLiner"><h1 class="menuElement">Diabetes Effecting Low-Income Communities</h1></div></div>
+			<div class="menuElementDiv" id="button4"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Policy</h1></div></div>
+			<div class="menuElementDiv" id="button5"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Politics</h1></div></div>
+			<div class="menuElementDiv" id="button6"><div class="menuElementLiner" style="border-bottom: none;"><h1 class="menuElement">Authors and Citations</h1></div></div>
+
+		</div>
+
+
+		<div id=bodyDiv>
+
+
+			<h1 class="title">Medicare for All? <br> The Policy</h1>
+
+
+			<div class="paraDiv">
+				
+				<p> </p>
+
+			</div>
+
+			<div class="paraDiv">
+				
+				<p>Medicare-for-All is a proposed single-payer healthcare system co-sponsored currently by 118 federal representatives. It would eliminate the private health insurance industry and replace it with a comprehensive healthcare plan that would cover every American equally.</p>
+
+			</div>
+
+			<div class="paraDiv">
+				
+				<p>This plan would move the burden of healthcare expenses onto taxes, which would be based on a progressive tax system. This means that the wealthiest Americans would pay the most taxes on it. A single-payer system like this would make medicine, hospital visits, surgeries, etc. all free.
+</p>
+
+			</div>
+
+			<h1 class="subtitle">According to one <br> Yale study (see sources)</h1>
+
+
+
+			<div class="importantDivLeft">
+
+				<p class=importantDivPara>Medicare-for-All would save Americans 450 billion dollars annually in national healthcare costs.  The heaviest burden lifted by this plan would be on low-income households. </p>
+
+			</div>
+
+			<div class="importantDivRight">
+
+				<p class=importantDivPara>It is estimated that it would save 68,000 lives annually or 1.73 million ‘life-years.</p>
+
+			</div>
+
+
+			<div class="paraDiv">
+
+				<p> The reason it would save so many lives is that it provides insurance to those who are unable to afford it, better insurance to most Americans, relieves the burden of paying for insurance, and ensures that Americans will not have to ignore their health for financial reasons.
+
+				</p>
+
+			</div>
+
+
+
+			<div class="questionDiv">
+				
+				<p class="questionPara">How would medicare for all affect you personally. Do you believe that you need it or that you already have sufficient healthcare?</p>
+				
+				<div class="nameRow">
+					
+					<h1 class="nameLabel">Name: </h1>
+					<input class="nameField" type="text" name="name">
+
+				</div>
+
+					<h1 class="responseLabel">Your Response: </h1>
+					<textarea class="responseField" name="response"></textarea>
+
+					<h1 class="alertLabel"></h1>
+
+				<div class="defaultButton postButton">
+					
+					<h1 class="defaultButtonLabel">Post</h1>
+
+				</div>
+
+				<div class="defaultButton viewButton">
+					
+					<h1 class="defaultButtonLabel" style="font-size: 2.5vh;">See Other <br> Posts</h1>
+
+				</div>
+
+
+
+			</div>
+
+			<div class="nextDiv">
+
+				<h1 class="nextDivHeader">Up Next...</h1>
+				<p class="nextDivPara">The Symptoms of Diabetes</p>
+
+				<div class="defaultButton" id="nextButton">
+
+					<h1 class="defaultButtonLabel">View</h1>
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+		</div>
+
+
+		<div class="footerDiv">
+			
+
+			<div class="defaultButton" id="citationButton">
+					
+				<h1 class="defaultButtonLabel">Authors and Citations</h1>
+
+
+
+			</div>
+
+
+		</div>
+
+
+	</body>
+
+	<footer>
+		
+		<script>
+			var TOKEN = "{{ csrf_token }}"
+		</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/titlebar.js"></script>
+		<script type="text/javascript" src="static/js/body.js"></script>
+
+
+	</footer>
+
+</html>

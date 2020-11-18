@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="static/css/titlebar.css">
+		<link rel="stylesheet" href="static/css/body.css">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+
+	</head>
+	
+	<body>
+
+		<div id="titleBarDiv"> 
+			
+			<image id="logoImg" src="static/img/logo.png">
+			<image id="hamburgerImg" src="static/img/hamburger.png">
+
+		</div>
+
+		<div id="menuDiv" style="display: none;">
+			
+			<div class="menuElementDiv" id="button1"><div class="menuElementLiner" style="border-top: none;"><h1 class="menuElement">Home</h1></div></div>
+			<div class="menuElementDiv" id="button2"><div class="menuElementLiner"><h1 class="menuElement">Diagnosing Diabetes</h1></div></div>
+			<div class="menuElementDiv" id="button3"><div class="menuElementLiner"><h1 class="menuElement">Diabetes Effecting Low-Income Communities</h1></div></div>
+			<div class="menuElementDiv" id="button4"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Policy</h1></div></div>
+			<div class="menuElementDiv" id="button5"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Politics</h1></div></div>
+			<div class="menuElementDiv" id="button6"><div class="menuElementLiner" style="border-bottom: none;"><h1 class="menuElement">Authors and Citations</h1></div></div>
+
+		</div>
+
+
+		<div id=bodyDiv>
+
+
+			<h1 class="title">Home</h1>
+
+			<div class="paraDiv">
+				
+				<p>Diabetes is a problem that effects all Americans. Over the last few decades, Diabetes in the US has skyrocketed. It is our job, as Americans, to stop it.</p>
+
+			</div>
+
+			<div class="paraDiv">
+				
+				<p>Though diabetes may seem like a personal struggle, there are many overarching environmental effects that have led to this large increase. Many Americans seem to point fingers
+				at many possible causes. However, one seems very critical to understand.</p>
+
+			</div>
+
+			<div class="paraDiv">
+				
+				<p>This is the role of income. Income, despite what many Americans may believe, is a very great indicator of diabetes rates.
+				Dennis Raphael, a professor at York University, asserts that income is even a greater indicator of diabetes than someones lifestyle.</p>
+
+			</div>
+
+			<div class="importantDivLeft">
+
+				<h1 class="importantDivHeader">Did you know...</h1>
+
+				<p class=importantDivPara>According to Professor Raphael's study, you are twice as likely to develop diabetes if you make under $15,000 annually compared to someone who makes over $80,000 annually. </p>
+
+			</div>
+
+			<div class="paraDiv">
+
+				<p>But before we tackle diabetes on a societal level, we must tackle it on a individual one. There are many ways to stay healthy, but <b>the best way to stay healthy is to be informed.</b>
+					Only then we can learn how to stay active and eat right.
+				</p>
+
+			</div>
+
+			<div class="importantDivRight" style="width: 80vw;">
+
+				<iframe  style="width: 35vh; height: 25vh;" class="importantImage" src="https://www.youtube.com/embed/nimUvyFkTuc"></iframe>>
+				<p class="importantDivPara">A healthy way to make a sandwich</p>
+
+			</div>
+
+			<div class="nextDiv">
+
+				<h1 class="nextDivHeader">Up Next...</h1>
+				<p class="nextDivPara">Diagnosing <br> Diabetes</p>
+
+				<div class="defaultButton" id="nextButton">
+
+					<h1 class="defaultButtonLabel">View</h1>
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+
+
+		</div>
+
+
+		<div class="footerDiv">
+			
+
+			<div class="defaultButton" id="citationButton" >
+					
+				<h1 class="defaultButtonLabel">Authors and Citations</h1>
+
+
+
+			</div>
+
+
+		</div>
+
+
+	</body>
+
+	<footer>
+		
+		<script>
+			var TOKEN = "{{ csrf_token }}"
+		</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/titlebar.js"></script>
+		<script type="text/javascript" src="static/js/body.js"></script>
+
+
+
+
+	</footer>
+
+</html>

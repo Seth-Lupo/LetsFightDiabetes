@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="/static/css/body.css">
+		<link rel="stylesheet" href="/static/css/responses.css">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+
+	</head>
+	
+	<body>
+
+		<div id="responseHeaderDiv">
+			
+			<div class="defaultButton" id="returnButton">
+					
+				<h1 class="defaultButtonLabel">Return to Article</h1>
+
+			</div>
+
+			<script>
+
+				$("#returnButton").click(() => {
+					window.location.href = "/" + {{article}}
+				})
+
+			</script>
+
+
+		</div>
+
+		<div id="bodyDiv" style="padding-left: 5vw; padding-right: 5vw;">
+			
+
+			<p class="responseIntro">Here's what other people had to say...</p>
+
+
+			<div style="width: 50%; margin: 6vh 25% 0px 25%;"><p class="questionPara">{{question}}</p></div>
+
+			{% for response in responses %}
+
+			<div class="responseDiv">
+			
+				<h1 class="responseHeader">{{response.name}} said...</h1>
+
+				<p class="responsePara">{{response.content}}</p>
+
+			</div>
+
+			{% endfor %}
+
+		</div>
+
+
+
+		
+		
+
+
+			
+
+	</body>
+
+	<footer>
+		
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="/static/js/responses.js"></script>
+
+		<script>
+
+				$("#returnButton").click(() => {
+					window.location.href = "/" + {{article}}
+				})
+
+		</script>
+
+
+	</footer>
+
+</html>

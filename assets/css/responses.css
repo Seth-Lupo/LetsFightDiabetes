@@ -1,0 +1,75 @@
+#responseHeaderDiv {
+
+	display: flex;
+	justify-content: center; 
+	background: #E4872C;
+	align-items: center;
+	min-height: 25vh;
+	box-shadow: 0px 20px 20px rgb(50, 50, 50);
+	z-index: 10;
+	position: relative;
+
+
+}
+
+.responseIntro{
+
+	font-size: 6vh;
+	padding-top: 6vh;
+	text-shadow: 0px 10px 0.5pc rgb(150, 150, 150);
+
+	font-family: 'Sawarabi Gothic', sans-serif;
+	z-index: 10;
+
+
+
+}
+
+.responseDiv{
+
+	margin-top: 6vh;
+
+	margin-left: auto;
+	margin-right: auto;
+	background: #F0BB86;
+
+	border-radius: 2vh 2vh 2vh 2vh;
+	width: 80vw;
+	padding: 4vh 8vw 4vh 8vw;
+
+	box-shadow: 20px 20px 20px rgb(50, 50, 50);
+
+
+}	
+
+.responseHeader{
+
+
+	font-size: 4.5vh;
+	padding-top: 0vh;
+	text-shadow: 0px 5px 0.5pc rgb(150, 150, 150);
+
+	font-family: 'Sawarabi Gothic', sans-serif;
+	z-index: 10;
+
+	text-align: left;
+
+
+}
+
+.responsePara{
+
+	font-size: 3vh;
+	padding-top: 3vh;
+	text-shadow: 0px 5px 0.4pc rgb(150, 150, 150);
+
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	z-index: 10;
+
+	text-align: left;
+
+
+
+
+}

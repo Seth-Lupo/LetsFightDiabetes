@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="static/css/titlebar.css">
+		<link rel="stylesheet" href="static/css/body.css">
+
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+
+
+	</head>
+	
+	<body>
+
+		<div id="titleBarDiv"> 
+			
+			<image id="logoImg" src="static/img/logo.png">
+			<image id="hamburgerImg" src="static/img/hamburger.png">
+
+		</div>
+
+		<div id="menuDiv" style="display: none;">
+			
+			<div class="menuElementDiv" id="button1"><div class="menuElementLiner" style="border-top: none;"><h1 class="menuElement">Home</h1></div></div>
+			<div class="menuElementDiv" id="button2"><div class="menuElementLiner"><h1 class="menuElement">Diagnosing Diabetes</h1></div></div>
+			<div class="menuElementDiv" id="button3"><div class="menuElementLiner"><h1 class="menuElement">Diabetes Effecting Low-Income Communities</h1></div></div>
+			<div class="menuElementDiv" id="button4"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Policy</h1></div></div>
+			<div class="menuElementDiv" id="button5"><div class="menuElementLiner"><h1 class="menuElement">Medicare for All? The Politics</h1></div></div>
+			<div class="menuElementDiv" id="button6"><div class="menuElementLiner" style="border-bottom: none;"><h1 class="menuElement">Authors and Citations</h1></div></div>
+
+		</div>
+
+
+		<div id="bodyDiv">
+
+
+			<h1 class="title">Authors and Citations</h1>
+
+			<div class="paraDiv">
+
+				<p>This website was created and written by Julian Henry, Pankti Bhagat, and Seth Lupo. To reach out, email me at seth.lupo@innovationcharter.org </p>
+
+			</div>
+
+			<h1 class="subtitle">Sources</h1>
+
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1618393/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1618393/</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.ontrackdiabetes.com/everyday-life/diabetes-poverty">https://www.ontrackdiabetes.com/everyday-life/diabetes-poverty</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.illinoisscience.org/2018/10/diabetes-in-low-income-communities-its-causes-and-its-solutions/">https://www.illinoisscience.org/2018/10/diabetes-in-low-income-communities-its-causes-and-its-solutions/</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.washingtonpost.com/news/to-your-health/wp/2016/04/06/diabetes-was-once-a-problem-of-the-rich-now-it-belongs-to-the-poor/">https://www.washingtonpost.com/news/to-your-health/wp/2016/04/06/diabetes-was-once-a-problem-of-the-rich-now-it-belongs-to-the-poor/</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="http://www.diabetesincontrol.com/poverty-a-leading-cause-of-type-2-diabetes-studies-say/">http://www.diabetesincontrol.com/poverty-a-leading-cause-of-type-2-diabetes-studies-say/</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.cdc.gov/mmwr/volumes/65/wr/mm6545a4.htm">https://www.cdc.gov/mmwr/volumes/65/wr/mm6545a4.htm</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.diabetes.org/advocacy/platform">https://www.diabetes.org/advocacy/platform</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)33019-3/fulltext#%20">https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)33019-3/fulltext#%20</a></div>
+			<div class="paraDiv" style="margin-margin: 1vh; word-wrap:break-word;
+   table-layout: fixed;"><a href="https://www.youtube.com/watch?v=9D420SOmL6U&feature=emb_logo">https://www.youtube.com/watch?v=9D420SOmL6U&feature=emb_logo</a></div>
+
+		</div>
+
+
+	</body>
+
+	<footer>
+		
+		<script>
+			var TOKEN = "{{ csrf_token }}"
+		</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script type="text/javascript" src="static/js/titlebar.js"></script>
+		<script type="text/javascript" src="static/js/body.js"></script>
+
+
+	</footer>
+
+</html>
