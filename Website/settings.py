@@ -25,7 +25,7 @@ SECRET_KEY = '^0tqz&p!hx&rh8=bjk+bhy3h8(@-9yu7fik@r)9=i&2be=d0a4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.1.4","127.0.0.1"]
+ALLOWED_HOSTS = ["192.168.1.4","127.0.0.1", "www.letsfightdiabetes.com"]
 
 
 
